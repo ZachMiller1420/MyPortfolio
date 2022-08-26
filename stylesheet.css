@@ -129,6 +129,7 @@ img {
 .welcome-section {
   display: flex;
   flex-direction: column;
+  padding: 55rem 1rem;
   justify-content: center;
   align-items: center;
   background-image: url("portback1.png");
@@ -148,9 +149,10 @@ img {
   left: 50px;
 }
 .welcome-section > h2 {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 500px;
+  top: 550px;
+  left: 50px;
 }
 .welcome-section > p {
   text-align: left;
@@ -185,12 +187,25 @@ img {
 
 }
 
-.skills {
-  position: absolute;
-  top: 65%;
-  height: 15%;
-  width: 15%;
+
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 600px;
+  
+	}
+	ul#horizontal-list li {
+		float: left;
+	}
+  ul#horizontal-list img {
+
+  }
 
 @media (max-width: 400px) {
   .welcome-section {
@@ -426,5 +441,8 @@ footer i {
     text-align: center;
   }
 }
+
+  
+
 
   
