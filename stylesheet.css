@@ -204,7 +204,7 @@ ul#horizontal-list li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 95rem 1rem;
+    padding: 150rem 1rem;
     align-items: center;
     background-image: url("portback2.jpg");
     background-repeat: no-repeat;
@@ -246,12 +246,10 @@ ul#horizontal-list li {
     color: #ffffff;
   }
   .table {
-    display: table; /* Allow the centering to work */
+    display: inline-table; /* Allow the centering to work */
     align-items: center;
-    padding-left: 5px;
-    padding-top: 5px;
    
-    padding-top: 200px;
+    padding-top: 700px;
     background-attachment: fixed;
     overflow:-moz-hidden-unscrollable;
     
@@ -261,12 +259,13 @@ ul#horizontal-list li {
     min-width: 696px;
     list-style: none;
     overflow: visible;
+    padding: 6rem 15rem;
 
     
   }
   ul#horizontal-list li {
     float:left;
-    padding: 6rem 2rem;
+    
   }
 }
 
@@ -442,3 +441,4 @@ footer i {
     text-align: center;
   }
 }
+
