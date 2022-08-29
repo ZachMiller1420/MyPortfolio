@@ -216,7 +216,7 @@ ul#horizontal-list li {
     color: #ffffff;
     background-color: #3aafa9;
     background-attachment: fixed;
-    overflow: hidden;
+    overflow:hidden;
   }
 
   .welcome-section > h2 {
@@ -247,19 +247,22 @@ ul#horizontal-list li {
   }
   .table {
     display: table; /* Allow the centering to work */
-    margin: 0 auto;
+   
     padding-top: 200px;
     background-attachment: fixed;
+    overflow:-moz-hidden-unscrollable;
+    
   }
 
   ul#horizontal-list {
     min-width: 696px;
     list-style: none;
-    overflow-y: hidden;
+    overflow: visible;
+
     
   }
   ul#horizontal-list li {
-    float: left;
+    float:left;
     padding: 6rem 2rem;
   }
 }
