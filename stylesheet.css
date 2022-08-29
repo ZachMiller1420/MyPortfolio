@@ -204,13 +204,14 @@ ul#horizontal-list li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 155rem 1rem;
+    padding: 150rem 1rem;
     align-items: center;
     background-image: url("portback2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     overflow: scroll;
     background-position-y: 100px;
+    background-position-x:center;
     width: 100%;
     height: 100vh;
     color: #ffffff;
@@ -248,7 +249,7 @@ ul#horizontal-list li {
   .table {
     display: table; /* Allow the centering to work */
     align-items: center;
-    padding-top: 100rem;
+    padding-top:75rem;
     overflow:-moz-hidden-unscrollable;
     text-align: center;
     position: absolute;
@@ -271,7 +272,7 @@ ul#horizontal-list li {
     float:none;
     width: 35%;
     align-items: center;
-    margin: 0 auto 6rem auto;
+    margin: 0 auto 1rem auto;
   }
 }
 
