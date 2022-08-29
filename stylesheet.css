@@ -246,7 +246,7 @@ ul#horizontal-list li {
     color: #ffffff;
   }
   .table {
-    display: inline-table; /* Allow the centering to work */
+    display: inline-block; /* Allow the centering to work */
     align-items: center;
    
     padding-top: 700px;
