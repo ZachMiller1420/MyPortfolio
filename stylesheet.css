@@ -247,6 +247,9 @@ ul#horizontal-list li {
   }
   .table {
     display: table; /* Allow the centering to work */
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
    
     padding-top: 200px;
     background-attachment: fixed;
