@@ -264,7 +264,9 @@ ul#horizontal-list li {
     
   }
   ul#horizontal-list li {
-    float:left;
+    float:none;
+    width: 50%;
+    align-items: center;
     
   }
 }
