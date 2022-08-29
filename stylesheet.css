@@ -216,6 +216,7 @@ ul#horizontal-list li {
     color: #ffffff;
     background-color: #3aafa9;
     background-attachment: fixed;
+    overflow: hidden;
   }
 
   .welcome-section > h2 {
